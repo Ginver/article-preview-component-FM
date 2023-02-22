@@ -15,19 +15,74 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
+
+<!--Block - kan op zichzelf worden hergebruikt (card)-->
+<!--Element - worden hergebruikt als onderdeel van een Block (__img)-->
+<!--Modifier - variant van een block of element (--orange)-->
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+<div class="card">
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+  <div>
+    <img class="card__img" src="./images/drawers.jpg" alt="photo of drawers in livingroom"/>
+  </div>
 
-  Michelle Appleton
-  28 Jun 2020
+  <div class="card__text">
 
-  Share
-  
+    <div class="text-section">
+      <p class="text-section--main">Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home</p>
+      <p class="text-section--sub">Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.</p>
+    </div>
+
+    <div class="contact-section">
+
+          <div class="contact__person">
+            <img class="contact__img" src="./images/avatar-michelle.jpg" alt="photo of Michelle Appleton"/>
+
+          <div class="contact__info">
+            <p class="info--name">Michelle Appleton</p>
+            <p class="info--date">28 Jun 2020</p>
+          </div>
+
+          </div>
+
+          <div>
+              <svg class="btn__arrow" id="test" xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+          </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!--      <div class="btn btn&#45;&#45;light margin-left-xl">-->
+
+
+        <!--button popup-->
+<!--        <div class="btn__popup">-->
+<!--          <div class="popup&#45;&#45;social">-->
+
+<!--            <p class="social&#45;&#45;text">share</p>-->
+<!--            <img class="social&#45;&#45;icon" src="./images/icon-facebook.svg" alt="facebook icon"/>-->
+<!--            <img class="social&#45;&#45;icon" src="./images/icon-twitter.svg" alt="twitter icon"/>-->
+<!--            <img class="social&#45;&#45;icon"src="./images/icon-pinterest.svg" alt="pinterest icon"/>-->
+
+<!--            <div class="btn btn&#45;&#45;dark">-->
+<!--              <img class="btn__errow&#45;&#45;dark" src="./images/icon-share.svg" alt="errow in a circle"/>-->
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>-->
+        <!--button popup-->
+<!--      </div>-->
+
+
+
+
+
+
 </body>
 </html>

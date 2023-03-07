@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+/*responsive*/
+@media only screen and (max-width: 376px) {
+    .card {
+        width: 327px;
+        flex-wrap: wrap;
+    }
+
+    .card__img {
+        width: 327px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .card__text {
+        width: 263px;
+        margin: 36px 32px 20px 32px;
+    }
+
+    .text-section--main {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contact-section {
+        margin-top: 32px;
+    }
+
+    .contact__person {
+        width: 172px;
+    }
+
+    .btn__arrow {
+        margin-left: 56px;
+    }
+
+    .popup--social {
+        visibility: hidden;
+        width: 327px;
+        height: 64px;
+        padding: 18px 36px 17px 37px;
+        border-radius: 0 0 10px 10px;
+        position: fixed;
+        bottom: 85px;
+        right: 24px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .popup--social::after {
+        visibility: hidden;
+    }
+
+    .btn__arrow--responsive {
+        display: revert;
+        background-color: hsl(212, 23%, 69%);
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+        padding: 8px;
+        margin-left: 25px;
+    }
+
+    .btn__arrow--responsive path {
+        fill: hsl(210, 46%, 95%);
+    }
+
+    .btn__arrow:hover .popup--social {
+        visibility: visible;
+    }
+
+    .social--text {
+        height: 20px;
+    }
+
+    .social--icon {
+        margin-left: 12px;
+        height: 20px;
+    }
+
+}

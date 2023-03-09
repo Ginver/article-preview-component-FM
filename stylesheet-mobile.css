@@ -4,6 +4,7 @@
 @media only screen and (max-width: 376px) {
     .card {
         width: 327px;
+        height: 512px;
         flex-wrap: wrap;
     }
 
@@ -40,12 +41,12 @@
     .popup--social {
         visibility: hidden;
         width: 327px;
-        height: 64px;
-        padding: 18px 36px 17px 37px;
+        height: 65px;
+        padding: 18px 37px 18px 37px;
         border-radius: 0 0 10px 10px;
         position: fixed;
-        bottom: 85px;
-        right: 24px;
+        bottom: 77px;
+        right: 25px;
         align-items: center;
         justify-content: flex-start;
     }

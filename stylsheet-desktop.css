@@ -130,6 +130,10 @@ div.card {
 }
 
 /*------------------------------------*/
+.popup {
+    position: relative;
+}
+
 .popup--social {
     visibility: hidden;
     width: 285px;
@@ -141,10 +145,10 @@ div.card {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    bottom: 440px;
-    right: 268px;
+    bottom: 45px;
+    right: -120px;
     padding: 18px 36px 17px 37px;
 }
 
